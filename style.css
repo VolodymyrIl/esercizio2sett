@@ -1,0 +1,115 @@
+.contenitore1 {
+    background-color: #222F3F;
+    
+
+}
+.foto1 {
+
+}
+.contenitore2 {
+    background-color: #354656;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.contenitore3 {
+    background-color: white;
+    padding: 20px;
+}
+
+
+.bottone {
+    width: 920px;
+    background-color: #F3490B;
+    color: white;
+    margin: 0 auto;
+    display: block;
+    padding-top: 200 px;
+    border-color: #F3490B;
+    
+}
+
+.contenitore4 {
+    text-align: center;
+    
+    color: white;
+    background-image: url(./assets/bg-image.png);
+    margin: 0 auto;
+    display: block;
+    width: 920px;
+    height: 200px;
+}
+
+.contenitore5 {
+    display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.foto1, .foto2, .foto3, .foto4 {
+   width: 200px;
+   height: 240px;
+   border-radius: 5%;
+   box-shadow: 20px grey;
+}
+
+.contenitore6 {
+    display: flex;
+    align-items: center;
+   
+}
+
+.fotovr {
+    margin: 0 auto;
+    display: block;
+    width: 920px;
+    height: 250px;
+    
+
+}
+
+.scrittagiu,.scrittagiu2 {
+    text-align: center;
+}
+
+.contenitore7 {
+    margin: 0 auto;
+    display: block;
+    width: 920px;
+    height: 250px;
+    
+}
+
+.fotocuffie {
+    margin: 0 auto;
+    display: block;
+    width: 920px;
+    height: 250px;
+
+}
+
+.primosfondo {
+    background-color: #354656; 
+    text-align: center;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.sfondofinale {
+    background-color:  #222F3F ;
+    height: 100px;
+   
+}
+.imfinale {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+   
+   
+}
+
+span {
+    color:#2B6F60;
+    font-size: medium;
+    font-weight: 300;
+}

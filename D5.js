@@ -64,10 +64,30 @@ cars[i] =licensePlate
 
 const licence = "licence"
 const plate = "plate"
+
+for(i=0; i < cars.length; i++) {
+  cars[i].licensePlate =5;
+}
+console.log(cars);
+
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
+let car = {
+  brand: "fiat",
+  model: "punto",
+  color: "blue",
+  trims: ["metano", "evo"],
+};
+
+car.splice(3,0, car);
+console.log("punto" + cars);
+ 
+for (let i = 0; i<cars.length; i++); {
+  cars[i].trims.pop();
+}
+
 
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
@@ -86,6 +106,16 @@ const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
 
+while(i < 13) {
+  console.log(numericArray[i]);
+  i++;
+  if(numericArray[i]===32){
+    console.log("cerca")
+    break;
+  }
+}
+
+//
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.

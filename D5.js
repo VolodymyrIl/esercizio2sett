@@ -18,6 +18,10 @@ console.log(pets)
 pets.sort();
 console.log(pets);
 
+for(let i =0; i<pets.length; i++) {
+  console.log(pets[i]);
+}
+
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 

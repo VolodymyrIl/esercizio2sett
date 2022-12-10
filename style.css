@@ -50,6 +50,7 @@
    height: 240px;
    border-radius: 5%;
    box-shadow: 20px grey;
+   position: absolute
 }
 
 .contenitore6 {
